@@ -23,20 +23,6 @@ a {
 a:hover {
     color: darkred;
 }
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    max-height: 100vh;
-}
-.text-container {
-    flex: 1;
-    padding: 20px;
-    text-align: center;
-    align-self: center;
-    justify-self: center;
-}
-
 .logo {
     width: 35px;
     margin: 5px;
@@ -66,4 +52,20 @@ a:hover {
     flex: 1;
 }
 }
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    max-height: 100vh;
+}
+.text-container {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+}
+
+
+
 
