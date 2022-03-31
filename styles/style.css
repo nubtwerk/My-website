@@ -4,7 +4,7 @@
     color: #636363;
 }
 html {
-    font-size: 25;
+    font-size: 25px;
     font-family: 'dongle', sans-serif;
     background-color: hsl(0, 0%, 100%);
 
@@ -12,6 +12,9 @@ html {
 h1 {
     text-align: center;
     line-height: 1em;
+}
+strong {
+    font-size: 50px;
 }
 p {
     line-height: 1em;
@@ -32,6 +35,13 @@ a:hover {
     max-width: 100%;
     object-fit: cover;
     min-height: 100vh;
+}
+.navbar {
+    
+}
+li {
+    list-style-type: none;
+    padding: 8px;
 }
 @media only screen and (min-width: 550px) {
 
